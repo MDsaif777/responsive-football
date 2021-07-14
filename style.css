@@ -58,8 +58,6 @@ header{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 27px;
     grid-column-gap: 30px;
-    
-    
     padding-top: 70px;
     width: 1050px;
 
@@ -68,8 +66,6 @@ header{
     width: 330px;
     height: 474px;
     box-shadow: 1px 1px 20px 2px  gray;
-    
-    
     
 }
 .player img{
@@ -93,6 +89,33 @@ header{
     font-weight:normal;
     font-style: normal;
     line-height: 30px;
+}
+
+/*----- heighlite Section --------*/
+
+.heigelite{
+    
+    width: 330px;
+    height: 474px;
+    box-shadow: 1px 1px 20px 2px  gray;
+    margin: 50px auto;
+    border-radius: 10px;
+    
+}
+.heigelite img{
+    width: 330px;
+    height: 256px;
+    
+    margin-bottom: 0;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    
+}
+.heigelite h3{
+    padding-left: 15px;
+}
+.heigelite p{
+    padding-left: 15px; 
 }
 
 /*----------- footer start -----------*/
@@ -139,13 +162,9 @@ margin-top: 186px;
   
     
     .header-section{
-        display:block;       
-       
+        display:block;          
         padding-bottom: 20px;
-        
-        
-        
-        
+    
        }
        .header-contain{
         margin-top: 0px;
@@ -175,22 +194,11 @@ margin-top: 186px;
         height: 259px;
         padding-left: 170px;
     }
-
-
     .player-details{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 27px;
-        
-        
-        
-        
         padding-top: 47px;
-        
-
-        
-        
-    
     }
     .player{
         margin: 0px auto;
