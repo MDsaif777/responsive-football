@@ -1,7 +1,12 @@
+
 body{
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+}
+main,footer{
+    display: flex;
+    justify-content: center;
 }
 
 /*------- header Css   -------*/
@@ -53,23 +58,68 @@ header{
     grid-row-gap: 27px;
     grid-column-gap: 30px;
     
-    padding-left:400px;
+    
     padding-top: 70px;
     width: 1050px;
 
 }
 .player{
     width: 330px;
-    height: 424px;
+    height: 474px;
     box-shadow: 1px 1px 20px 2px  gray;
+    
+    
     
 }
 .player img{
     width: 300px;
     height: 256px;
-    margin: 17px 17px;
+    
     margin-bottom: 0;
+    margin: 15px
 }
 .player-title{
-    padding-left: 20px;
+ padding: 0 15px;
+}
+.player-title h3{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10PX;
+}
+.player-title p{
+    color: darkgray;
+    font-size: 16px;
+    font-weight:normal;
+    font-style: normal;
+    line-height: 30px;
+}
+
+/*-- footer start --*/
+.footer-section{
+width: 483px;
+height: 213px;
+margin-top: 186px;
+}
+.footer-image img{
+    width: 483px;
+    height: 110px;
+}
+.footer-icon{
+ text-align: center;
+}
+.footer-icon i{
+   width: 32px;
+   height: 22px;
+   color: gray;
+   background-color: #ccc7c754;
+   margin-right: 14px;
+   text-align: center;
+   justify-content: center;
+   padding-top: 8px;
+   border-radius: 100px;
+}
+.copyright h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
 }
